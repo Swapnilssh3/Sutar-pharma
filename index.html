@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sutar Pharma</title>
+ 
+ <script src="app.js" ></script>
+ 
+
+ <style>
+
+    body{
+        background-color: white;
+        
+        
+
+    }
+
+    #logo{
+        border: 0px solid black;
+        color: lightgreen;
+    }
+
+    #logo h1{
+        margin-left: 20px;
+        text-shadow: 10px 10px 10px 10px black;
+        font-family: cooper;
+     }
+
+    .container{
+        
+        height: 85vh;
+
+        display: grid;
+        grid-template-areas: 
+        'aside  main main'
+        'footer footer footer'  
+        ;
+         gap: 9px;
+    }
+
+
+    .aside{
+
+          border: 2px solid black;
+          grid-area: aside;
+          text-align: center;
+          padding: 4px;
+          margin: 2px;
+         }
+
+    .main{
+        grid-area: main;
+        border: 2px solid black;
+        text-align: center;
+        padding: 5px;
+    }
+
+
+    .footer{
+        grid-area: footer;
+        height: 150px;
+        margin-top: 5px;
+        border: 2px solid black;
+        text-align: center;
+        padding: 5px;
+    }
+
+
+    /* mobile view */
+
+    @media (max-width: 600px){
+
+       body{
+        background-color: rgb(246, 157, 157);
+       }
+
+
+
+       .container{
+        
+        height: 100vh;
+
+        display: grid;
+        grid-template-areas: 
+        ' main'
+        'aside'
+         'footer'
+        
+        
+         ;
+         gap: 9px;
+    }
+
+        
+         
+    }   
+ 
+     
+ </style>
+
+
+ </head>
+<body>
+
+      <div id="logo">
+         <h1>Sutar Pharma</h1> 
+
+      </div>
+
+         <div class="container">
+
+              <div class="aside">
+                
+                 <h1>NEWS</h1>  
+
+
+                 <h2>  Stock of sutar Pharma</h2>
+                   
+                 <b>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, corrupti similique deleniti, facere hic temporibus praesentium repellendus reprehenderit non necessitatibus architecto quis adipisci quaerat porro totam, aut tenetur mollitia quidem saepe impedit reiciendis iusto ducimus modi repellat. Consectetur optio porro dolorem ipsa soluta ducimus explicabo cumque deserunt sapiente. Suscipit sit numquam autem harum et blanditiis voluptas quidem ipsa cumque itaque.
+                 </p></b>
+            </div>
+              <div class="main">
+                  
+                <h1>NEW PRODUCT</h1>
+                  
+                    <h2>*  Beta Capsule  *</h2>
+                     <b>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim dolor veritatis doloribus veniam debitis, dignissimos culpa fugiat in, libero reiciendis, dicta aut labore provident obcaecati. Enim saepe sequi distinctio voluptatibus.</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore temporibus nisi ipsam laboriosam voluptate autem eos eum optio natus ipsum suscipit nesciunt a facere, nemo quibusdam alias sapiente modi eius? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, exercitationem. Provident qui, vel deserunt odit numquam debitis neque libero laboriosam tempore soluta repellendus aperiam maxime, obcaecati sunt, necessitatibus rem optio.</p>
+                    
+                </b>
+
+              </div>
+
+              <div class="footer">
+                <h2>Sutar911@gamil.com</h2>
+                <h2>YOUTUBE</h2>
+                <h2>@CopyRight clamied</h2>
+             </div>
+           
+               
+               
+         </div>
+        
+
+             
+</body>
+</html>
